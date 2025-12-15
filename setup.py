@@ -11,9 +11,10 @@ setup(
     url='https://github.com/derekwins88/entropylab',
     packages=find_packages(exclude=("tests", "docs", "examples")),
     install_requires=['pandas', 'numpy', 'matplotlib'],
+    license='IMM-PL-1.0',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
+        'License :: Other/Proprietary License',
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.8',
